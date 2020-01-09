@@ -49,9 +49,16 @@ ul, li{
 
 .header li{
     display: inline-block;
-    padding: 10px 10px;
+    
     border: 2px solid rgba(0,0,0,0); 
     cursor: pointer;
+}
+
+.header a{
+    height: 50px;
+    width: 100%;
+    padding: 0px 8px 0px 8px;
+    
 }
 
 li:hover{
@@ -88,6 +95,15 @@ li:hover{
     width: 15px;
 }
 
+
+nav a {
+        color: white;
+        text-decoration: none;
+        width: 100%;
+        display: inline-block;
+        height: 50px;
+        line-height: 50px;
+    }
 
 
 /*===============2222222222222222222222===============*/
@@ -131,11 +147,6 @@ li:hover{
     margin-top: 20px;
     font-size: 30px;
 } 
-
-.head a{
-    width: 100%;
-    height: auto;
-}
 
 
 
