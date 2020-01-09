@@ -130,8 +130,12 @@ li:hover{
 .main_inner p{
     margin-top: 20px;
     font-size: 30px;
-
 } 
+
+.head a{
+    width: 100%;
+    height: auto;
+}
 
 
 
@@ -358,9 +362,9 @@ li:hover{
         
 }
 
+
 .sl{
     margin: 65px 10px 0px 10px;
-    border: 2px solid #777;
 }
 
 .sl_slide{
@@ -372,7 +376,6 @@ img{
     height: auto;
 }
 
-
 .sl_text{
     color: white;
     width: 100%;
@@ -383,8 +386,6 @@ img{
     background: rgba(64, 64, 64, 0.63);
 }
 
-
-
 .sl_zag{
     font-size: 28px;
     font-weight: 400;
@@ -394,10 +395,6 @@ img{
     font-size: 16px;
     font-weight: 100;
 }
-
-
-
-
 
 .slick-dots{
     margin-top: 15px;

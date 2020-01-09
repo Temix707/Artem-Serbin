@@ -17,25 +17,32 @@ $(function(){
    }); 
     
     $("li:eq(1)").on("mouseenter",function(){
-       $(".skill").css("color","#00D646");
+       $(".me").css("color","#00D646");
    }); 
     $("li:eq(1)").on("mouseleave",function(){
-       $(".skill").css("color","#939DAB");
+       $(".me").css("color","#939DAB");
    }); 
     
     $("li:eq(2)").on("mouseenter",function(){
-       $(".portfolio").css("color","#00D646");
+       $(".skill").css("color","#00D646");
    }); 
     $("li:eq(2)").on("mouseleave",function(){
-       $(".portfolio").css("color","#939DAB");
+       $(".skill").css("color","#939DAB");
    }); 
     
     $("li:eq(3)").on("mouseenter",function(){
-       $(".contacts").css("color","#00D646");
+       $(".portfolio").css("color","#00D646");
    }); 
     $("li:eq(3)").on("mouseleave",function(){
+       $(".portfolio").css("color","#939DAB");
+   });   
+    
+    $("li:eq(4)").on("mouseenter",function(){
+       $(".contacts").css("color","#00D646");
+   }); 
+    $("li:eq(4)").on("mouseleave",function(){
        $(".contacts").css("color","#939DAB");
-   });     
+   }); 
 });
 
 
@@ -61,9 +68,9 @@ $(function() {
 
 
 
-$(document).ready(function() {
+$(function() {
    var margin = 0; // переменная для контроля докрутки
-   $("a").click(function() { // тут пишите условия, для всех ссылок или для конкретных
+   $("a, li").click(function() { // тут пишите условия, для всех ссылок или для конкретных
       $("html, body").animate({
          scrollTop: $($(this).attr("href")).offset().top+margin+ "px" // .top+margin - ставьте минус, если хотите увеличить отступ
       }, {
