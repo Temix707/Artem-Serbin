@@ -1,0 +1,467 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial;
+    outline: none;  
+}
+
+
+a{
+    text-decoration: none;
+    list-style: none;
+}
+
+ul, li{
+    list-style: none;
+}
+
+*::selection{
+    background: #006521;
+}
+
+/*==============111111111111111111111=============*/
+
+
+.header__top{
+    background: #3e3e3e;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+    
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.header ul{
+    line-height: 30px;
+}
+
+.header li{
+    display: inline-block;
+    padding: 10px 10px;
+    border: 2px solid rgba(0,0,0,0); 
+    cursor: pointer;
+}
+
+li:hover{
+    border-color: #00D646;
+}
+
+.head{
+    color: #939DAB;
+    font-size: 14px;
+}
+
+.head , li{
+    transition: 0.4s all; 
+}
+.tem{
+    position: absolute;
+    left: 0;
+}
+
+.tem img{
+    margin-top: 6px;
+    width: 40px;
+}
+
+.number{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 12px; 
+}
+
+.number img{
+    margin-right: 5px;
+    width: 15px;
+}
+
+
+
+/*===============2222222222222222222222===============*/
+
+
+
+#selection-1{
+    background: url(../img/main.jpg) no-repeat center / cover;    
+    padding-bottom: 200px;
+    /*background-attachment: fixed;*/
+}
+
+.main_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*background-color: rgba(35, 35, 36, 0.7);
+	box-shadow: -10px 0 0 rgba(0, 0, 0, 0.5), 10px 0 0 rgba(0, 0, 0, 0.5);*/
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.main_inner{
+    color: #e8e8e8;
+    margin-right: 600px;
+    
+} 
+
+.main_inner span{
+    color: #00D646;
+} 
+
+.main_inner h1, h2{
+    font-size: 80px;
+
+} 
+
+.main_inner p{
+    margin-top: 20px;
+    font-size: 30px;
+
+} 
+
+
+
+/*=================33333333333333333333=============*/
+
+
+#selection-2{
+    background: url(../img/skill.jpg) no-repeat center / cover;
+    /*background-attachment: fixed;*/
+    height: 100vh;
+    position: relative;
+    padding-bottom: 1200px;
+}
+
+
+.fly_square_header{
+    text-align: center;
+    width: 50%;
+    background: #434343;
+    position: absolute;
+    top: -15%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 2px solid #00D646;
+}
+
+.fly_square{
+    padding: 30px;
+    font-weight: 300;
+    color: #e8e8e8;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.fly_square_logo{
+    
+}
+
+.fly_square_text{
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+.fly_square_button{
+    border: 2px solid #00D646;
+    padding: 10px;
+    width: 120px;
+    margin: auto;
+    margin-top: 20px;
+    transition: 0.4s all;
+    cursor: pointer;
+}
+
+.fly_square_button:hover{
+    background-color: #00d646;
+}
+
+.skill_header{
+    padding-top: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.title{
+    color: #e8e8e8;
+    font-weight: 700;
+    font-size: 65px;
+    text-align: center;
+}
+
+.title p{
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.under_line{
+    background: #00d646;
+    height: 6px;
+    width: 120px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.skill_lines{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.skill_lines ul{
+    
+}
+
+.skill_line{
+    background: #00d646;
+    height: 14px;
+    margin-top: 45px;
+    color: #939DAB;
+    font-size: 15px;
+}
+
+
+.num_1{
+    width: 90%;
+    position: relative;
+    
+}
+.num_1::before{
+    content: "HTML";
+    position: absolute;
+    right: 104%;
+}
+
+.num_1::after{
+    content: "90%";
+    position: absolute;
+    left: 105%;
+}
+
+.num_2{
+    width: 85%;
+    position: relative;
+    
+}
+.num_2::before{
+    content: "CSS";
+    position: absolute;
+    right: 104%;
+}
+
+.num_2::after{
+    content: "85%";
+    position: absolute;
+    left: 105%;
+}
+
+.num_3{
+    width: 50%;
+    position: relative;
+    
+}
+.num_3::before{
+    content: "JavaScript";
+    position: absolute;
+    right: 106%;
+}
+
+.num_3::after{
+    content: "50%";
+    position: absolute;
+    left: 105%;
+}
+
+.num_4{
+    width: 60%;
+    position: relative;
+    
+}
+.num_4::before{
+    content: "JQuery";
+    position: absolute;
+    right: 105%;
+}
+
+.num_4::after{
+    content: "60%";
+    position: absolute;
+    left: 105%;
+}
+
+.num_5{
+    width: 75%;
+    position: relative;
+    
+}
+.num_5::before{
+    content: "Photoshop";
+    position: absolute;
+    right: 105%;
+}
+
+.num_5::after{
+    content: "75%";
+    position: absolute;
+    left: 105%;
+}
+
+.num_6{
+    width: 70%;
+    position: relative;
+    
+}
+.num_6::before{
+    content: "Slick";
+    position: absolute;
+    right: 105%;
+}
+
+.num_6::after{
+    content: "70%";
+    position: absolute;
+    left: 105%;
+}
+
+
+
+/*444444444444444444444444444444444444444444444444*/
+
+
+#selection-3{
+    background: #434343;
+    padding-bottom: 80px;
+}
+
+.main_portfolio{
+    padding-top: 100px;
+    max-width: 900px;
+    margin: auto;   
+        
+}
+
+.sl{
+    margin: 65px 10px 0px 10px;
+    border: 2px solid #777;
+}
+
+.sl_slide{
+    position: relative;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.sl_text{
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: -84%;
+    transition: 0.2s all;
+    text-align: center;
+    background: rgba(64, 64, 64, 0.63);
+}
+
+
+
+.sl_zag{
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.sl_desc{
+    font-size: 16px;
+    font-weight: 100;
+}
+
+
+
+
+
+.slick-dots{
+    margin-top: 15px;
+}
+
+.slick-dots li button{
+    border: 1px solid #777;
+    border-radius: 50%;
+    -webkit-transition: border-color .3s;
+    -o-transition: border-color .3s;
+    transition: border-color .3s;
+}
+
+.slick-dots li button::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #777;
+    opacity: 1;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    margin: -5px 0 0 -5px;
+    -webkit-transition: backgrund .3s;
+    -o-transition: backgrund .3s;
+    transition: backgrund .3s;
+    
+}
+
+.slick-dots li button:hover,
+.slick-dots li.slick-active button{
+    background: #00d646;
+}
+
+.slick-dots li button:hover::before
+.slick-dots li.slick-active button::before{
+    background: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
