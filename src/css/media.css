@@ -1,0 +1,138 @@
+/*=========myPhone goriz==============*/
+
+@media screen and (max-width: 740px){
+
+    .main_inner{
+        margin-right: 0px;
+    } 
+    .main_inner h1, h2{
+        font-size: 50px;
+
+    } 
+    .main_inner p{
+        margin-top: 30px;
+        font-size: 20px;
+    } 
+    #selection-2{
+        padding-bottom: 1100px;
+    }
+    .title{
+        font-size: 35px;
+    }
+    .title p{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .under_line{
+        height: 5px;
+        width: 100px;
+    }
+    .fly_square_header{
+        width: 90%;
+    }
+    .fly_square{
+        padding: 15px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .fly_square_logo{
+        margin: 0 auto;
+        width: 28%;
+    }
+    .main_portfolio{
+        padding-top: 100px;
+        max-width: 650px; 
+    }
+    .sl_zag{
+        font-size: 20px;
+    }
+    .sl_desc{
+        font-size: 13px;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=========myPhone vertical==============*/
+@media screen and (max-width: 420px){
+
+    .main_inner{
+        margin-right: 0px;  
+    } 
+    .main_inner h1, h2{
+        font-size: 50px;
+
+    } 
+    .main_inner p{
+        margin-top: 30px;
+        font-size: 20px;
+    } 
+    #selection-2{
+        padding-bottom: 1100px;
+    }
+    .fly_square_text{
+        padding: 2px;
+        margin-top: 2px;
+    }
+    .title{
+        font-size: 35px;
+        padding: 0px 40px 0px 40px;
+    }
+    .title p{
+        font-size: 0px;
+        margin-top: 0px;
+    }
+    .under_line{
+        height: 5px;
+        width: 100px;
+    }
+    .fly_square_header{
+        width: 97%;
+    }
+    .fly_square{
+        padding: 15px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .fly_square_logo{
+        margin: 0 auto;
+        width: 28%;
+    }
+    .main_portfolio{
+        padding-top: 80px;  
+    }
+    .sl_zag{
+        font-size: 20px;
+    }
+    .sl_desc{
+        font-size: 13px;
+    }
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 320px){
+    .title{
+        font-size: 35px;
+    }
+}

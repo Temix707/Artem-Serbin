@@ -25,7 +25,7 @@ ul, li{
 
 .header__top{
     background: #3e3e3e;
-    position: fixed;
+    /*position: fixed;*/
     width: 100%;
     z-index: 100;
 }
@@ -130,8 +130,7 @@ nav a {
 
 .main_inner{
     color: #e8e8e8;
-    margin-right: 600px;
-    
+    margin-right: 600px;  
 } 
 
 .main_inner span{
@@ -183,7 +182,7 @@ nav a {
 }
 
 .fly_square_logo{
-    
+    margin: 0 auto;
 }
 
 .fly_square_text{
@@ -390,11 +389,11 @@ img{
 .sl_text{
     color: white;
     width: 100%;
-    height: 100%;
     position: absolute;
-    bottom: -84%;
+    bottom: 0;
     text-align: center;
     background: rgba(64, 64, 64, 0.63);
+    padding: 10px;
 }
 
 .sl_zag{
