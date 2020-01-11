@@ -87,7 +87,7 @@ li:hover{
     position: absolute;
     right: 0;
     top: 0;
-    padding-top: 12px; 
+    line-height: 50px; 
 }
 
 .number img{
@@ -368,13 +368,13 @@ nav a {
 .main_portfolio{
     padding-top: 100px;
     max-width: 900px;
-    margin: auto;   
-        
+    margin: auto; 
 }
 
 
 .sl{
     margin: 65px 10px 0px 10px;
+    border: 2px solid #00d646;
 }
 
 .sl_slide{

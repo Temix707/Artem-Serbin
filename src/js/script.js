@@ -70,7 +70,7 @@ $(function() {
 
 $(function() {
    var margin = 0; // переменная для контроля докрутки
-   $("a, li").click(function() { // тут пишите условия, для всех ссылок или для конкретных
+   $("a").click(function() { // тут пишите условия, для всех ссылок или для конкретных
       $("html, body").animate({
          scrollTop: $($(this).attr("href")).offset().top+margin+ "px" // .top+margin - ставьте минус, если хотите увеличить отступ
       }, {
@@ -80,11 +80,6 @@ $(function() {
       return false;
    });
 });
-
-
-
-
-
 
 
 

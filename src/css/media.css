@@ -1,3 +1,108 @@
+/*=========Computer==============*/
+
+@media screen and (min-width: 1600px){
+
+
+    .header a{
+        height: 60px;
+        padding: 0px 10px 0px 10px;
+    }
+    .head{
+        font-size: 21px;
+    }
+    .tem img{
+        margin-top: 6px;
+        width: 50px;
+    }
+    .number{
+        line-height: 60px; 
+    }
+    .number img{
+        margin-right: 5px;
+        width: 15px;
+    }
+    nav a {
+            height: 60px;
+            line-height: 60px;
+    }
+    .main_inner h1, h2{
+        font-size: 90px;
+    } 
+
+    .main_inner p{
+        margin-top: 20px;
+        font-size: 40px;
+    }
+    
+    
+    #selection-2{
+        background: url(../img/skill.jpg) no-repeat center / cover;
+        /*background-attachment: fixed;*/
+        height: 100vh;
+        position: relative;
+        padding-bottom: 1200px;
+    }
+    .fly_square_header{
+        width: 40%;
+    }
+
+    .fly_square{
+        font-size: 22px;
+    }
+
+    .fly_square_logo{
+        margin: 0 auto;
+    }
+    .title{
+        font-size: 70px;
+    }
+
+    .title p{
+        font-size: 45px;
+    }
+    .main_portfolio{
+        padding-top: 100px;
+        max-width: 1000px;
+        margin: auto;        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+}
+
+
+/*=========The tablet mini==============*/
+
+@media screen and (max-width: 1000px){
+    .main_inner{
+        margin-right: 0px;
+    }  
+    .main_portfolio{
+        padding-top: 100px;
+        max-width: 730px; 
+    }
+    .title{
+        font-size: 35px;
+    }
+    .title p{
+        font-size: 34px;
+        margin-top: 20px;
+    }
+}
+
+
+
+
 /*=========myPhone goriz==============*/
 
 @media screen and (max-width: 740px){
@@ -133,6 +238,19 @@
 
 @media screen and (max-width: 320px){
     .title{
-        font-size: 35px;
+        font-size: 30px;
+        padding: 0px 0px 0px 0px;
+    }
+    .fly_square_header{
+        width: 97%;
+    }
+    .fly_square{
+        padding: 15px;
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .fly_square_logo{
+        margin: 0 auto;
+        width: 28%;
     }
 }
