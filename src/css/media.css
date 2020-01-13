@@ -68,22 +68,24 @@
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
 
+}
+
+/*==============Menu computer leave===================*/
+
+@media screen and (min-width: 1000px){
+    .burger-menu{
+        display: none;
+    }    
 }
 
 
 /*=========The tablet mini==============*/
 
 @media screen and (max-width: 1000px){
+    .header{
+        display: none;
+    }
     .main_inner{
         margin-right: 0px;
     }  
@@ -99,7 +101,6 @@
         margin-top: 20px;
     }
 }
-
 
 
 

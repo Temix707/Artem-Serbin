@@ -20,7 +20,8 @@ ul, li{
     background: #006521;
 }
 
-/*==============111111111111111111111=============*/
+/*==============111111111111111111111=============
+=================Menu==========================*/
 
 
 .header__top{
@@ -95,15 +96,132 @@ li:hover{
     width: 15px;
 }
 
-
+    
 nav a {
-        color: white;
         text-decoration: none;
         width: 100%;
         display: inline-block;
         height: 50px;
         line-height: 50px;
     }
+
+
+
+
+
+
+/*==============Mobile menu==============*/
+
+
+.burger-menu__link a{
+    transition: 0.4s;
+}
+
+.burger-menu__button{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 30;
+    width: 60px;
+    height: 60px;
+    background-color: #1a7e3b;
+    transition: 0.4s;
+}
+
+/*.burger-menu__button:hover .burger-menu__lines{
+    filter: brightness(0.7);
+}*/
+
+.burger-menu__lines,
+.burger-menu__lines::after,
+.burger-menu__lines::before{
+    position: absolute;
+    width: 35px;
+    height: 4px;
+    background-color: #e8e8e8;    
+}
+
+.burger-menu__lines{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.burger-menu__lines::before{
+    content: '';
+    top: -12px;
+}
+
+.burger-menu__lines::after{
+    content: '';
+    top: 12px;
+}
+
+.burger-menu_active .burger-menu__button,
+.burger-menu_active .burger-menu__lines{
+    background-color: transparent;
+}
+
+.burger-menu_active .burger-menu__lines::before{
+    top: 0;
+    transform: rotate(45deg);
+}
+
+.burger-menu_active .burger-menu__lines::after{
+    top: 0;
+    transform: rotate(-45deg);
+}
+
+.burger-menu__nav{
+    padding-top: 100px;
+    position: fixed;
+    display: flex;
+    z-index: 20;
+    flex-flow: column;
+    height: 100%;
+    background: rgba(26, 126, 59, 0.90);
+    overflow-y: auto;
+    left: -100%;
+    transition: 0.5s;
+   
+}
+
+.burger-menu_active .burger-menu__nav{
+    left: 0;
+}
+
+.burger-menu__link{
+    padding: 2px 20px 50px 20px;
+    font-size: 27px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: #e8e8e8;
+    margin-left: -1px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+.burger-menu__link:hover{
+    color: #00D646; 
+    border: 1px solid #00D646;
+}
+
+.burger-menu__overlay{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+}
+
+.burger-menu_active .burger-menu__overlay{
+    display: block;
+}
+
+
+
 
 
 /*===============2222222222222222222222===============*/
@@ -200,6 +318,7 @@ nav a {
     margin-top: 20px;
     transition: 0.4s all;
     cursor: pointer;
+    color: #e8e8e8;
 }
 
 .fly_square_button:hover{
