@@ -53,7 +53,7 @@
     .fly_square_logo{
         margin: 0 auto;
     }
-    .title{
+    .title, .title-1{
         font-size: 70px;
     }
 
@@ -65,11 +65,10 @@
         max-width: 1000px;
         margin: auto;        
     }
-    
-    
-    
 
 }
+
+
 
 /*==============Menu computer leave===================*/
 
@@ -93,7 +92,7 @@
         padding-top: 100px;
         max-width: 730px; 
     }
-    .title{
+    .title, .title-1{
         font-size: 35px;
     }
     .title p{
@@ -102,6 +101,18 @@
     }
 }
 
+@media screen and (max-width: 1045px){
+    .fly_square_logo{
+        display: none;
+    }
+    .left_contact{
+        padding-right: 0px;
+    }
+
+    .right_contact{
+        padding-left: 0px;
+    }
+}
 
 
 /*=========myPhone goriz==============*/
@@ -134,7 +145,10 @@
         width: 100px;
     }
     .fly_square_header{
-        width: 90%;
+        width: 97%;
+    }
+    .fly_square_me{
+        padding-top: 20px;
     }
     .fly_square{
         padding: 15px;
@@ -156,19 +170,13 @@
         font-size: 13px;
     }
 
-
+    .contact_header{
+        width: 97%;
+    }
 
 
 
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -194,7 +202,7 @@
     }
     .fly_square_text{
         padding: 2px;
-        margin-top: 2px;
+        margin-top: 32px;
     }
     .title{
         font-size: 35px;
@@ -229,8 +237,12 @@
     .sl_desc{
         font-size: 13px;
     }
-
-
+    .contact_header{
+        width: 97%;
+    }
+    .adress{
+        width: 70%;
+    }
 
 
 
@@ -253,5 +265,11 @@
     .fly_square_logo{
         margin: 0 auto;
         width: 28%;
+    }
+    .contact_header{
+        width: 97%;
+    }
+    .adress{
+        width: 80%;
     }
 }

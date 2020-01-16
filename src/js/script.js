@@ -117,10 +117,14 @@ burgerMenu('.burger-menu');
 
 
 
+/*=================================*/
 
 
-
-
+/*$(function(){
+   $(".adress").click(function(){
+       $(".adress").css("background","#939DAB");
+   });
+});*/
 
 
 

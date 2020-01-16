@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="src/css/media.css">
 </head>
 <body>
-    <div class="header__top">
+    <div class="header_top">
         <div class="container">
             <div class="header">
                 <nav>
@@ -23,8 +23,8 @@
                         <li><a href="#selection-1" class="head home">Главная</a></li>
                         <li><a href=".fly_square_header" class="head me">Обо мне</a></li>
                         <li><a href=".skill_inner" class="head skill">Навыки</a></li>
-                        <li><a href=".main_portfolio" class="head portfolio">Портфолио</a></li>
-                        <li><a href="#" class="head contacts">Контакты</a></li>
+                        <li><a href="#title_2" class="head portfolio">Портфолио</a></li>
+                        <li><a href=".contact_header" class="head contacts">Контакты</a></li>
                         <div class="head number"><img src="src/img/phone.png" alt="телефон">   +8 (916) 655 10 08 </div>
                     </ul>
                 </nav>
@@ -53,21 +53,39 @@
             </div>
         </div>
     </div>
-    
     <div id="selection-2">
         <div class="fly_square_header">
             <div class="fly_square">
-               <div class="fly_square_logo">
-                    <img src="src/img/logo_t7.png" alt="">
+               <div class="fly_square_me">
+                    Обо мне
+                    <div class="under_line"></div>
                 </div>
                 <div class="fly_square_text">
-                    Это текст. Нажмите один раз и выберите «Редактировать текст» или просто кликните дважды, чтобы добавить свой текст и настроить шрифт. Вы можете переместить его в любое место на странице. Расскажите посетителям сайта о себе.
+                  Всем привет. Меня зовут Артем и я Веб-Разработчик. Занимаюсь этой профессией уже 3 года. У меня всегда есть стремление развиваться, становиться лучше  
+                  и ответственно относиться к делу.
+                  <!---->
                 </div>
-                <a href=".main_portfolio"><div class="fly_square_button">
-                    <h5>Портфолио</h5>
-                </div></a>
+                <div class="fly_square_contacts">
+                    <div class="left_contact">
+                        <a href="https://vk.com/id210553929"><div class="fly_square_contact">
+                            <img src="src/img/contacts/icon-vk.png" alt="vk">
+                        </div></a>
+                        <a href="https://www.instagram.com/temix_seven/"><div class="fly_square_contact">
+                            <img src="src/img/contacts/icon-instagram.png" alt="instagram">
+                        </div></a>
+                    </div>
+                    <img class="fly_square_logo" src="src/img/logo_t7.png" alt="logo">
+                    <div class="right_contact">
+                        <a href="https://github.com/Temix707?tab=overview&from=2018-01-25"><div class="fly_square_contact">
+                            <img src="src/img/contacts/icon-github.png" alt="github">
+                        </div></a>
+                        <a href="https://www.facebook.com/artem.serbin.39"><div class="fly_square_contact">
+                           <img src="src/img/contacts/icon-facebook.png" alt="facebook">
+                        </div></a>
+                    </div>
+                </div>
             </div>
-        </div>  
+        </div> 
         <div class="skill_header">
             <div class="skill_inner">
                 <div class="title">
@@ -88,10 +106,9 @@
             </div>
         </div>
     </div>
-    
     <div id="selection-3">
         <div class="main_portfolio">
-            <div class="title">
+            <div id="title_2" class="title">
                 Портфолио
                 <div class="under_line"></div>
             </div>
@@ -120,6 +137,48 @@
             </div>
         </div>   
     </div>
+    <div id="selection-4">
+        <div class="contact_header">
+            <div class="main_contacts">
+                <div id="title_2" class="title-1">
+                    Контакты
+                    <div class="under_line"></div>
+                    <p>Свяжитесь со мной</p>
+                </div>
+                <div class="contacts">
+                   <div class="contact">
+                       <input type="text" placeholder="Имя" class="adress">
+                       <input type="text" placeholder="Фамилия" class="adress">
+                       <input type="text" placeholder="Почта" class="adress">
+                       <input type="text" placeholder="Пароль" class="adress">
+                       
+                   </div>
+                    <div class="button">Отправить</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="fly_square_contacts">
+            <div class="left_contact lt">
+                <a href="https://vk.com/id210553929"><div class="fly_square_contact">
+                    <img src="src/img/contacts/icon-vk.png" alt="vk">
+                </div></a>
+                <a href="https://www.instagram.com/temix_seven/"><div class="fly_square_contact">
+                    <img src="src/img/contacts/icon-instagram.png" alt="instagram">
+                </div></a>
+            </div>
+            <div class="right_contact rt">
+                <a href="https://github.com/Temix707?tab=overview&from=2018-01-25"><div class="fly_square_contact">
+                    <img src="src/img/contacts/icon-github.png" alt="github">
+                </div></a>
+                <a href="https://www.facebook.com/artem.serbin.39"><div class="fly_square_contact">
+                    <img src="src/img/contacts/icon-facebook.png" alt="facebook">
+                </div></a>
+            </div>
+        </div>
+        <div class="footer_text">© Артем Сербин 2020</div>
+    </div>
      
     
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
@@ -127,9 +186,6 @@
     <script src="src/js/script.js"></script>
 </body>
 </html>
-
-
-
 
 
 

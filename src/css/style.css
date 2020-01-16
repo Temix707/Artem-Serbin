@@ -24,9 +24,9 @@ ul, li{
 =================Menu==========================*/
 
 
-.header__top{
+.header_top{
     background: #3e3e3e;
-    /*position: fixed;*/
+    position: fixed; 
     width: 100%;
     z-index: 100;
 }
@@ -109,8 +109,9 @@ nav a {
 
 
 
-
 /*==============Mobile menu==============*/
+
+
 
 
 .burger-menu__link a{
@@ -267,7 +268,7 @@ nav a {
 
 
 
-/*=================33333333333333333333=============*/
+/*=================Fly Square=============*/
 
 
 #selection-2{
@@ -275,13 +276,13 @@ nav a {
     /*background-attachment: fixed;*/
     height: 100vh;
     position: relative;
-    padding-bottom: 1200px;
+    padding-bottom: 1300px;
 }
 
 
 .fly_square_header{
     text-align: center;
-    width: 50%;
+    width: 60%;
     background: #434343;
     position: absolute;
     top: -15%;
@@ -292,38 +293,64 @@ nav a {
 }
 
 .fly_square{
-    padding: 30px;
-    font-weight: 300;
+    padding: 40px;
     color: #e8e8e8;
-    font-size: 17px;
-    line-height: 30px;
 }
 
-.fly_square_logo{
-    margin: 0 auto;
+.fly_square_me{
+    font-size: 45px;
+    font-weight: 700;
 }
+
+/*.fly_square_logo{
+    margin: 0 auto;
+    padding-top: 20px;
+}*/
+
 
 .fly_square_text{
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 300;
     padding: 10px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
-
-.fly_square_button{
-    border: 2px solid #00D646;
-    padding: 10px;
-    width: 120px;
-    margin: auto;
-    margin-top: 20px;
-    transition: 0.4s all;
-    cursor: pointer;
-    color: #e8e8e8;
-}
 
 .fly_square_button:hover{
     background-color: #00d646;
 }
+
+.fly_square_contacts{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 50px;
+}
+
+.fly_square_contact{
+    display: inline-block;
+    padding: 25px 10px 25px 10px;
+} 
+
+.fly_square_contact img:hover{
+    background: #00d646;
+    border-radius: 50px;
+    transition: 0.4s all;
+}
+
+.left_contact{
+    padding-right: 20px;
+}
+
+.right_contact{
+    padding-left: 20px;
+}
+
+
+
+/*=================333333333333333=============*/
 
 .skill_header{
     padding-top: 450px;
@@ -390,7 +417,7 @@ nav a {
 }
 
 .num_2{
-    width: 85%;
+    width: 80%;
     position: relative;
     
 }
@@ -401,7 +428,7 @@ nav a {
 }
 
 .num_2::after{
-    content: "85%";
+    content: "80%";
     position: absolute;
     left: 105%;
 }
@@ -480,8 +507,8 @@ nav a {
 
 
 #selection-3{
-    background: #434343;
-    padding-bottom: 80px;
+    background: #262626;
+    padding-bottom: 400px;
 }
 
 .main_portfolio{
@@ -506,7 +533,7 @@ img{
 }
 
 .sl_text{
-    color: white;
+    color: #e8e8e8;
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -564,8 +591,99 @@ img{
 }
 
 
+/*==============444444444444444444================*/
+
+#selection-4{
+    background: url(../img/contact-1.jpg) no-repeat center / cover;
+    padding-bottom: 700px;
+    position: relative;
+}
+
+.contact_header{
+    text-align: center;
+    width: 60%;
+    background: #434343;
+    position: absolute;
+    top: -25%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 2px solid #00D646;
+    border-bottom: none;
+}
+
+.main_contacts{
+    padding-top: 50px;
+}
+
+.title-1{
+    font-size: 45px;
+    font-weight: 700;
+    color: #e8e8e8;
+}
+
+.title-1 p{
+    font-size: 25px;
+    font-weight: 100;
+    color: #e8e8e8;
+    padding-top: 60px;
+}
+
+.contacts{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.adress{
+    background: #363636;
+    border: 2px solid #00d646;
+    border-radius: 5px;
+    padding: 18px 20px;
+    line-height: 18px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    width: 40%;
+    color: #e8e8e8;
+}
+
+.button{
+    color: #e8e8e8;
+    padding: 20px;
+    background: rgba(26, 126, 59, 0.90);
+    cursor: pointer;
+    transition: 0.4s all;
+}
+
+.button:hover{
+    background: rgba(16, 72, 34, 0.9);
+}
 
 
+
+
+
+/*==============foooteeeeeerrrr================*/
+
+
+
+#footer{
+    background: #262626;
+    padding-bottom: 40px;
+}
+
+
+.lt{
+    padding-right: 0px;
+}
+
+.rt{
+    padding-left: 0px;
+}
+
+.footer_text{
+    text-align: center;
+    color: #e8e8e8;
+}
 
 
 
