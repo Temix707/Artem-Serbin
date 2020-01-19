@@ -2,7 +2,9 @@
 
 @media screen and (min-width: 1600px){
 
-
+    .container{
+        max-width: 1200px;
+    }
     .header a{
         height: 60px;
         padding: 0px 10px 0px 10px;
@@ -68,6 +70,17 @@
 
 }
 
+@media screen and (min-width: 1400px){
+    .container{
+        max-width: 1000px;
+    }
+}
+    
+@media screen and (min-width: 1200px){
+    .container{
+        max-width: 900px;
+    }
+}
 
 
 /*==============Menu computer leave===================*/
@@ -76,6 +89,9 @@
     .burger-menu{
         display: none;
     }    
+    .container{
+        max-width: 900px;
+    }
 }
 
 
@@ -272,4 +288,31 @@
     .adress{
         width: 80%;
     }
+    .fly_square_contact img{
+        width: 40px;
+        height: auto;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

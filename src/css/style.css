@@ -439,7 +439,7 @@ nav a {
     
 }
 .num_3::before{
-    content: "JavaScript";
+    content: "JS";
     position: absolute;
     right: 106%;
 }
