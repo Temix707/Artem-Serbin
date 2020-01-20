@@ -115,6 +115,9 @@
         font-size: 34px;
         margin-top: 20px;
     }
+    #selection-1{
+        background-position: 0px 0px; /*смещает задний фон*/
+    }
 }
 
 @media screen and (max-width: 1045px){
@@ -128,6 +131,7 @@
     .right_contact{
         padding-left: 0px;
     }
+    
 }
 
 
@@ -140,8 +144,10 @@
     } 
     .main_inner h1, h2{
         font-size: 50px;
-
     } 
+    #selection-1{
+        background-position: 0px 0px; /*смещает задний фон*/
+    }
     .main_inner p{
         margin-top: 30px;
         font-size: 20px;
@@ -207,8 +213,10 @@
     } 
     .main_inner h1, h2{
         font-size: 50px;
-
     } 
+    #selection-1{
+        background-position: 0px 0px; /*смещает задний фон*/
+    }
     .main_inner p{
         margin-top: 30px;
         font-size: 20px;
@@ -271,6 +279,9 @@
 
 
 @media screen and (max-width: 320px){
+    #selection-1{
+        background-position: 0px 0px; /*смещает задний фон*/
+    }
     .title{
         font-size: 30px;
         padding: 0px 0px 0px 0px;

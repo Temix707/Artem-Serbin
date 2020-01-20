@@ -519,11 +519,11 @@ nav a {
 
 
 .sl{
-    margin: 65px 10px 2px 10px;
-    border: 2px solid #00d646;
+    margin: 65px 10px 0px 10px;
 }
 
 .sl_slide{
+    border: 1px solid #00d646;
     position: relative;
 }
 
