@@ -230,9 +230,10 @@ nav a {
 
 
 #selection-1{
-    background: url(../img/main.jpg) no-repeat center / cover;    
+    background: url(../img/as2.jpg) no-repeat center / cover; 
     padding-bottom: 200px;
-    /*background-attachment: fixed;*/
+    background-position: 0px 20px; /*смещает задний фон*/
+    background-attachment: fixed;
 }
 
 .main_header{
@@ -249,7 +250,7 @@ nav a {
 
 .main_inner{
     color: #e8e8e8;
-    margin-right: 600px;  
+    margin-left: 600px;  
 } 
 
 .main_inner span{
@@ -596,6 +597,7 @@ img{
 #selection-4{
     background: url(../img/contact-1.jpg) no-repeat center / cover;
     padding-bottom: 700px;
+    background-attachment: fixed;
     position: relative;
 }
 

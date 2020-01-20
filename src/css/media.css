@@ -102,7 +102,7 @@
         display: none;
     }
     .main_inner{
-        margin-right: 0px;
+        margin-left: 0px;
     }  
     .main_portfolio{
         padding-top: 100px;
@@ -136,7 +136,7 @@
 @media screen and (max-width: 740px){
 
     .main_inner{
-        margin-right: 0px;
+        margin-left: 0px;
     } 
     .main_inner h1, h2{
         font-size: 50px;
@@ -200,10 +200,10 @@
 
 
 /*=========myPhone vertical==============*/
-@media screen and (max-width: 420px){
+@media screen and (max-width: 425px){
 
     .main_inner{
-        margin-right: 0px;  
+        margin-left: 0px;  
     } 
     .main_inner h1, h2{
         font-size: 50px;
@@ -215,6 +215,9 @@
     } 
     #selection-2{
         padding-bottom: 1100px;
+    }
+    .fly_square_me{
+        font-size: 35px;
     }
     .fly_square_text{
         padding: 2px;
@@ -259,7 +262,9 @@
     .adress{
         width: 70%;
     }
-
+    #selection-1{
+    background-position: -200px 0px;
+    }
 
 
 }
@@ -269,6 +274,9 @@
     .title{
         font-size: 30px;
         padding: 0px 0px 0px 0px;
+    }
+    .fly_square_me{
+        font-size: 30px;
     }
     .fly_square_header{
         width: 97%;
@@ -291,6 +299,12 @@
     .fly_square_contact img{
         width: 40px;
         height: auto;
+    }
+    .title-1{
+        font-size: 30px;
+    }
+    #selection-1{
+        background-position: -200px 0px;
     }
 }
 
