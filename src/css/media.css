@@ -191,12 +191,9 @@
     .sl_desc{
         font-size: 13px;
     }
-
     .contact_header{
         width: 97%;
     }
-
-
 
 }
 
@@ -274,7 +271,9 @@
     #selection-1{
     background-position: -200px 0px;
     }
-
+    .skill_line{
+        font-size: 12px;
+    }
 
 }
 
@@ -317,6 +316,9 @@
     }
     #selection-1{
         background-position: -200px 0px;
+    }
+    .skill_line{
+        font-size: 12px;
     }
 }
 

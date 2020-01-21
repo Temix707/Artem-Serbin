@@ -387,7 +387,8 @@ nav a {
 }
 
 .skill_lines ul{
-    
+    text-align: center;
+    margin: 0 auto;
 }
 
 .skill_line{
